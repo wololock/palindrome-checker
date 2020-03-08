@@ -63,5 +63,8 @@ test-suite palindrome-checker-test
   build-depends:
       base >=4.7 && <5
     , palindrome-checker
+    , text
+    , QuickCheck
+    , quickcheck-instances
   default-language: Haskell2010
   extensions: OverloadedStrings

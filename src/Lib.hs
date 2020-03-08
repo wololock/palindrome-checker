@@ -1,5 +1,6 @@
 module Lib
     ( isPalindrome
+    , preProcess  
     ) where
 
 import qualified Data.Text as T
